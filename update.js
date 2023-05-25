@@ -4,7 +4,7 @@ const path = __dirname + '/metadata';
 const buildDescription = (oldValue, id) => 'description...';
 const buildName = (oldValue, id) => 'Name #' + id;
 const buildImageUri = (oldValue, id) => 'ipfs://_CID_/' + id + '.png';
-const buildExternalUrl = (oldValue, id) => 'https://kroniclabz.com';
+const buildExternalUrl = (oldValue, id) => 'https://thirdweb.com';
 
 const getTokenId = (filePath) => {
   return filePath.match(/([0-9]+)\.json/)[1];
